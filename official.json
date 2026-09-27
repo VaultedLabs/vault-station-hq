@@ -1,0 +1,37 @@
+{
+  "project": "Vault Station HQ",
+  "mark": "\u25c9",
+  "tagline": "Observing what launches, what survives, and what the data says.",
+  "network": "solana",
+  "experiment": "001",
+  "status": "undisclosed",
+  "entry": "withheld",
+  "github": {
+    "login": "VaultedLabs",
+    "type": "User",
+    "id": 328830813,
+    "profile": "https://github.com/VaultedLabs",
+    "repository": "https://github.com/VaultedLabs/vault-station-hq",
+    "pages": "https://vaultedlabs.github.io/vault-station-hq/"
+  },
+  "socials": {
+    "x": "https://x.com/VaultStationHQ",
+    "x_handle": "@VaultStationHQ"
+  },
+  "pumpfun": {
+    "website": "https://vaultedlabs.github.io/vault-station-hq/",
+    "github": "https://github.com/VaultedLabs/vault-station-hq",
+    "twitter": "https://x.com/VaultStationHQ",
+    "github_fee_user_id": "328830813",
+    "github_fee_login": "VaultedLabs",
+    "note": "GitHub organizations cannot claim pump.fun social fees. VaultedLabs is a user account. Claim only through pump.fun after GitHub login."
+  },
+  "token": {
+    "name": null,
+    "ticker": null,
+    "mint": null,
+    "pumpfun_url": null
+  },
+  "not": ["$VAULT", "Vault AI studio page as the coin"],
+  "updated_utc": "2026-09-27T08:45:00Z"
+}
