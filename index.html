@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vault Station HQ</title>
+  <meta name="description" content="Official Vault Station HQ record. Observing what launches, what survives, and what the data says. Experiments conducted onchain." />
+  <meta property="og:title" content="Vault Station HQ" />
+  <meta property="og:description" content="Official record. Experiments conducted onchain." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vaultedlabs.github.io/vault-station-hq/" />
+  <meta name="theme-color" content="#07080c" />
+  <style>
+    :root { --bg:#07080c; --ink:#e8eadf; --muted:#8b9278; --line:rgba(200,242,106,.16); --mark:#c8f26a; --warn:#e6b35a; --card:rgba(13,16,24,.86); }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{background:var(--bg);color:var(--ink)}
+    body{font-family:Segoe UI,Helvetica,Arial,sans-serif;min-height:100vh;background:radial-gradient(900px 420px at 80% -10%,rgba(200,242,106,.07),transparent 55%),var(--bg)}
+    a{color:var(--mark);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{width:min(980px,calc(100% - 32px));margin:0 auto;padding:28px 0 80px}
+    header,footer{display:flex;justify-content:space-between;gap:16px;border-color:var(--line)}
+    header{align-items:center;padding-bottom:28px;border-bottom:1px solid var(--line)}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:600;letter-spacing:.18em;font-size:12px;text-transform:uppercase}
+    .dot{width:14px;height:14px;border-radius:50%;background:var(--mark);box-shadow:0 0 18px rgba(200,242,106,.45)}
+    nav{display:flex;gap:18px;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+    nav a{color:var(--muted)}
+    .hero{padding:64px 0 36px}
+    .kicker{color:var(--mark);font-size:11px;letter-spacing:.28em;text-transform:uppercase;margin-bottom:18px}
+    h1{font-family:Georgia,serif;font-size:clamp(42px,8vw,84px);line-height:.92;font-weight:500;max-width:12ch}
+    .lede{margin-top:22px;max-width:38ch;color:var(--muted);font-size:17px;line-height:1.55}
+    .status,.grid{display:grid;gap:10px;margin-top:18px}
+    .status{grid-template-columns:repeat(4,1fr);margin-top:36px}
+    .grid{grid-template-columns:1.2fr .8fr;gap:14px}
+    .chip,.card{border:1px solid var(--line);background:var(--card);padding:14px}
+    .card{padding:22px}
+    .chip span{display:block;color:var(--muted);font-size:10px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px}
+    .card h2{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--mark);margin-bottom:14px}
+    .row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+    .row:last-child{border-bottom:0}
+    .row em{color:var(--muted);font-style:normal}
+    .mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+    .btn{display:inline-flex;border:1px solid var(--mark);color:#08100a;background:var(--mark);padding:11px 16px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:650}
+    .btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+    .copy{cursor:pointer;border:0;background:transparent;color:var(--muted);font:inherit}
+    .note{margin-top:16px;color:var(--muted);font-size:13px;line-height:1.5}
+    .warn{color:var(--warn)}
+    footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;flex-wrap:wrap}
+    @media (max-width:760px){.status,.grid{grid-template-columns:1fr}header,footer{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><span class="dot"></span> Vault Station</div>
+      <nav>
+        <a href="https://x.com/VaultStationHQ">X</a>
+        <a href="https://github.com/VaultedLabs/vault-station-hq">GitHub</a>
+        <a href="https://pump.fun">pump.fun</a>
+        <a href="./CONNECT.md">Connect</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <p class="kicker">Incoming transmission · Experiment 001</p>
+      <h1>The archive is public. The entry is not.</h1>
+      <p class="lede">Observing what launches, what survives, and what the data says. Official Vault Station HQ record for GitHub and pump.fun.</p>
+      <div class="actions">
+        <a class="btn" href="https://github.com/VaultedLabs/vault-station-hq">Official repo</a>
+        <a class="btn ghost" href="https://x.com/VaultStationHQ">@VaultStationHQ</a>
+        <a class="btn ghost" id="pump-link" href="https://pump.fun">pump.fun</a>
+      </div>
+    </section>
+    <div class="status">
+      <div class="chip"><span>Source</span><b>VAULT STATION</b></div>
+      <div class="chip"><span>Network</span><b>SOLANA</b></div>
+      <div class="chip"><span>Status</span><b>UNDISCLOSED</b></div>
+      <div class="chip"><span>Entry</span><b>WITHHELD</b></div>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <h2>Official links</h2>
+        <div class="row"><em>Station</em><span>Vault Station HQ</span></div>
+        <div class="row"><em>X</em><a href="https://x.com/VaultStationHQ">@VaultStationHQ</a></div>
+        <div class="row"><em>GitHub user</em><a href="https://github.com/VaultedLabs">VaultedLabs</a></div>
+        <div class="row"><em>GitHub user ID</em><span class="mono">328830813 <button class="copy" data-copy="328830813" type="button">copy</button></span></div>
+        <div class="row"><em>Repository</em><a class="mono" href="https://github.com/VaultedLabs/vault-station-hq">VaultedLabs/vault-station-hq</a></div>
+        <div class="row"><em>Website field</em><span class="mono">github.io/vault-station-hq <button class="copy" data-copy="https://vaultedlabs.github.io/vault-station-hq/" type="button">copy</button></span></div>
+        <p class="note">Paste these three fields on a pump.fun coin: website, GitHub, X. Anything else is not this station.</p>
+      </article>
+      <article class="card">
+        <h2>Contract</h2>
+        <div class="row"><em>Name</em><span id="token-name">—</span></div>
+        <div class="row"><em>Ticker</em><span id="token-ticker">—</span></div>
+        <div class="row"><em>Mint</em><span class="mono" id="token-mint">not issued</span></div>
+        <p class="note warn">No mint is live in this file. Do not buy a contract that is not written here.</p>
+        <p class="note">When Experiment 001 is named, the mint lands in <span class="mono">official.json</span> first.</p>
+      </article>
+    </div>
+    <footer>
+      <span>◉ VAULT STATION</span>
+      <span>Not financial advice. VaultedLabs is a GitHub user, not an org — required for pump.fun GitHub fee claims.</span>
+    </footer>
+  </div>
+  <script>
+    async function loadOfficial() {
+      try {
+        const res = await fetch('./official.json', { cache: 'no-store' });
+        if (!res.ok) return;
+        const data = await res.json();
+        const token = data.token || {};
+        if (token.name) document.getElementById('token-name').textContent = token.name;
+        if (token.ticker) document.getElementById('token-ticker').textContent = token.ticker;
+        if (token.mint) {
+          const el = document.getElementById('token-mint');
+          el.textContent = token.mint;
+        }
+        if (token.pumpfun_url) document.getElementById('pump-link').href = token.pumpfun_url;
+      } catch (e) {}
+    }
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-copy]');
+      if (!btn) return;
+      navigator.clipboard.writeText(btn.getAttribute('data-copy')).then(() => {
+        btn.textContent = 'copied';
+        setTimeout(() => { btn.textContent = 'copy'; }, 1200);
+      });
+    });
+    loadOfficial();
+  </script>
+</body>
+</html>
