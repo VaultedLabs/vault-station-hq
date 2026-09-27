@@ -67,10 +67,10 @@ Claim path: open the coin on pump.fun → log in with GitHub as `VaultedLabs` �
 
 ## Enable the public landing
 
-GitHub Pages is not always flipped on by the API. After the first push:
+GitHub Actions cannot create a Pages site on this account (`Resource not accessible by integration`). Enable it once in the UI:
 
 1. Open https://github.com/VaultedLabs/vault-station-hq/settings/pages
-2. Source: **GitHub Actions** (preferred) or **Deploy from a branch** → `main` / `/ (root)`
-3. Confirm https://vaultedlabs.github.io/vault-station-hq/ loads
-
-The workflow in `.github/workflows/pages.yml` publishes `index.html` from `main`.
+2. Under **Build and deployment** → **Source**, choose **Deploy from a branch**
+3. Branch: `main` · folder: `/ (root)`
+4. Save
+5. Wait about a minute, then open https://vaultedlabs.github.io/vault-station-hq/
